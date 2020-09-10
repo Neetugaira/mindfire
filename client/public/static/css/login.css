@@ -1,0 +1,9 @@
+/* login */
+.log-screen {margin: auto;background-color: #fbfbfb;border-radius: 5px;padding: 30px 50px;box-shadow: 0px 1px 10px #9c9c9c;font-size: 14px;width: 500px}
+.log-in .card-header {padding: 15px 15px;margin-bottom: 20px;border: none; text-align: center; color: #2db4b2;font-size: 26px;font-weight: 300;background: none;}
+.log-in label{font-size: 14px; font-weight: 400;}
+.log-in input[type=text], .log-in input[type=password] {width: 100%;padding: 8px 12px;margin: 0 0 15px;display: inline-block;border: 1px solid #ccc;box-sizing: border-box;background: #fff;border-color: #d0d0d0;color: #000;}
+.log-screen button {background: #38bfb2;color: white;padding: 14px 20px;margin: 8px 0;border: none;cursor: pointer;border-radius: 3px;}
+span.psw {float: right;padding-top: 16px;}
+.log-screen a {color: #38bfb2;}
+.text-login {text-align: center;width: 100%;margin-top: 10px;font-size: 14px;}

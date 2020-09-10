@@ -1,0 +1,406 @@
+ @font-face {
+     font-family: 'Conv_Metropolis-Regular';
+     src: url('../fonts/Metropolis-Regular.eot');
+     src: url('../fonts/Metropolis-Regular.woff') format('woff'), url('../fonts/Metropolis-Regular.ttf') format('truetype'), url('../fonts/Metropolis-Regular.svg') format('svg');
+     font-weight: normal;
+     font-style: normal;
+}
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');*/
+            body{
+                font-family: 'Conv_Metropolis-Regular'; padding-top:90px;
+
+            }
+            nav{
+                padding:0;float: right;
+            }
+            nav ul{
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 0;
+            }
+            nav li{
+                list-style-type: none;
+                display: inline-block;
+                margin: 0 10px 0 0;
+            }
+            nav a {
+                color: #ffffff;
+                font-size: 14px;
+                text-decoration: none;
+                padding: 10px 14px;
+                display: block;
+                border-radius: 5px;
+                background: #27c18b;
+                text-align: center;
+                border: 1px solid #27c18b;
+            }
+            main{
+                max-width: 960px;
+                margin: 30px auto;
+                padding: 0 10px;
+                color: #333;
+            }
+
+            main img{
+                width: 40px;
+                margin-right: 10px;
+                position: relative;
+                top: 12px;
+            }
+            main p{
+                display: inline-block;
+            }
+            /* header{background:#ffffff;box-shadow: 0 0 10px #ccc;} */
+            header {
+    background: #ffffff;
+    box-shadow: 0 0 10px #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1
+}
+            .azure-btn{
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 10px;
+                background: #ff5353;
+            }
+
+        .logo img {
+            width: 78px;
+
+        }
+        .text-login{
+          text-align: center;
+          width: 100%;
+          margin-top: 10px;
+        }
+        .f-12{
+          font-size: 13px!important;
+
+        }
+                        /* Bordered form */
+
+        /* Full-width inputs */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+         margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+        box-sizing: border-box;
+        }
+
+/* Set a style for all buttons */
+button {
+    background-color: #27c18b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.pop-desc
+{display: none;
+position: relative;
+background: red;
+background: #f6f6f6;
+border-radius: 5px;
+border: #ddd solid 1px;
+box-shadow: #ccc 1px 1px 11px -2px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+padding: 10px;
+background: #ff5353;
+}
+
+.successPop{
+  background: #5acc5a;
+  padding: 20px;
+  width: 300px;
+  border: solid 1px darkgreen;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+padding: 22px;
+}
+/* The "Forgot password" text */
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+.peersettings{
+    display: none;
+    position: absolute;
+    background: red;
+
+    background: #f6f6f6;
+    border-radius: 5px;
+    border: #ddd solid 1px;
+    box-shadow: #ccc 1px 1px 11px -2px;
+  }
+
+  .modal-header {
+      background: #3b3be0;
+      color: white;
+  }
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+}
+.cancelbtn {
+width: 100%;
+}
+}
+main{
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 10px;
+    color: #333;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 8px 12px;
+    margin:0 0 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+    border-color: #d0d0d0;
+    color: #000;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 8px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+    border-color: #d0d0d0;
+    color: #000;
+}
+
+input[type=number], input[type=password] {
+    width: 100%;
+    padding: 8px 12px;
+  margin:0 0 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+    border-color: #d0d0d0;
+    color: #000;
+}
+/* Set a style for all buttons */
+/* button {
+    background-color: #2f405f;
+    color: white;
+    padding: 14px 20px;
+  margin: 0 0 0 10px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+} */
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  background: #ff5353;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/*komal code*/
+.peerComp {
+   content:url(../images/peers.png);
+}
+
+.settings {
+   content:url(../images/settings.png);
+       width: 77px;
+}
+
+.reload {
+   content:url(../images/reload.jpeg);
+}
+
+.operations
+{float:right;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+            main{
+                max-width: 960px;
+                margin: 30px auto;
+                padding: 0 10px;
+                color: #333;
+            }
+            .azure-btn{
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 10px;
+                background: #ff5353;
+            }
+
+
+
+/* Login Css*/
+label { font-weight: 300;color: #233656;}
+a{color: #38bfb2;}
+.login {
+    max-width: 100%;
+    margin: auto;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 0px 1px 10px #9c9c9c;
+}
+.register{max-width: 800px;margin: auto;background-color: #fff; margin-bottom:80px;border-radius:5px;padding: 30px 50px;box-shadow: 0px 1px 10px #9c9c9c;}
+.register p { color: #616365;margin-top: 20px;}
+.card-header {
+    padding: 10px 15px;
+    text-align: center;
+    color: #2db4b2;
+    font-size: 26px;
+    font-weight: 300;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: #656565;
+    font-size: 12px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 10px #ccc;background:#fff;
+}
+.footer a {
+    color: #656565;
+}
+.logo {font-size: 30px; color: #fff; font-style: italic;text-shadow: 2px 3px 1px #141415;position: relative;}
+nav a {  background: #0085b2; border: 1px solid #0085b2;}
+
+nav a:hover {  opacity: 0.8; color:#fff;text-decoration:none;}
+.copy-btn { padding: 5px 10px;}
+.copy-btn:hover { background: #233656;}
+.log-screen a {color: #38bfb2;}
+.log-screen button {background:#38bfb2;}
+.login h4 {margin-top: 0;}
+#qrcode { margin-bottom: 10px; margin-top: 10px;}
+.register .card-header {
+    border-radius: 5px;
+}
+.register button { background-color: #38bfb2; padding: 9px 20px;}
+.log-in .card-header {
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.log-screen {
+    max-width: 500px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+em{
+  color: #ff0000
+}
+
+.footer i {
+    font-size: 15px;
+    margin: 0 2px;
+    color: #0085b2;
+}
+
+.register h4 {
+    font-size: 15px;
+}
+.register h4 span.f-12 {
+    display: block;
+    margin: 5px 0 20px;
+    color: #737171;
+}

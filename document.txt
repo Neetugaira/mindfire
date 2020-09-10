@@ -1,0 +1,44 @@
+to run this application
+===================================
+
+>  first mysql database will be created which is in server/database.js
+
+> second job schedular should work independent form appication present in
+server/jobs
+ to run  :       node job-daily-instance-stats.js
+
+ > for server to run on base directory
+
+   npm install
+   node app.js
+
+
+ > for client to run
+ ---------------------------
+
+ npm install
+ npm run build
+ npm start
+
+ > for test cases to run
+ ---------------------------
+     base directory : server/test
+     to start :  npm test
+
+> for login
+    > email:Test@gmail.com
+    > password:Test12345
+
+
+
+
+
+1.  User can login with login credentails:
+2.  After that user can see news which is comming from job schedular from rss feed for HINDU TIMES and TIMES OF INDIA.
+3.  Category is coming from category table for different agaency(HINDU TIMES OR TIMES OF INDIA).
+4.  Search button to search news on text
+5.  on click on news user can get directed to news link
+6 . whereas on report click can see news report count which is dependent on click of report
+
+
+    
