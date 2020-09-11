@@ -1,5 +1,4 @@
 err.log
-config/config.js
 node_modules/
 db_data
 server/config/config.js
